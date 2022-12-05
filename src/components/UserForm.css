@@ -1,0 +1,23 @@
+.form-container {
+   /* position: absolute;
+   right: 0; */
+   /* width: 65vh; */
+   position: sticky;
+   right: 0px;
+   top: 0px;
+   background-color: #2C3639;
+   min-height: 100vh;
+   border-radius: 15px 0px 0px 15px;
+   color: white;
+}
+
+.form-heading {
+   text-align: center;
+}
+
+/* styling the create new user button */
+.openFormBtn button {
+   position: absolute;
+   top: 2%;
+   right: 2%;
+}

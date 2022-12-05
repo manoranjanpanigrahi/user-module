@@ -1,0 +1,32 @@
+.sidebar {
+   min-height: 100vh;
+   background-color: #2C3639;
+   border-radius: 0px 12px 12px 0px;
+   color: #DCD7C9;
+   position: relative;
+   transition: width 0.2s ease-in;
+}
+
+/* each li item / menu item */
+.sidebar-menu-container {
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+.sidebar-menu-container:hover,
+.sidebar-menu-container:active {
+   background-color: #191f20;
+   cursor: pointer;
+}
+
+.title {
+   font-size: 1.1rem;
+}
+
+/* close button */
+.openCloseBtn svg {
+   position: absolute;
+   top: 2%;
+   right: 6%;
+}

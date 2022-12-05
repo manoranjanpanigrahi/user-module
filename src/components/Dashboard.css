@@ -1,0 +1,10 @@
+.dashboard {
+   text-align: center;
+   color: #2C3639;
+   /* this will stretch the user data table across the screen */
+   flex-grow: 1;
+}
+
+.table>tbody {
+   vertical-align: middle;
+}
